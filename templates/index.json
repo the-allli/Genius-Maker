@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {}
+    },
+    "hero-banner": {
+      "type": "hero-banner",
+      "settings": {}
+    }
+  },
+  "order": ["header", "hero-banner"]
+}
