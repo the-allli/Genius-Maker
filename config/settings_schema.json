@@ -48,13 +48,13 @@
     "settings": [
       {
         "type": "header",
-        "content": "Page Width"
+        "content": "Font Picker"
       },
       {
         "type": "font_picker",
         "id": "heading_font",
         "label": "Heading font",
-        "default": "helvetica_n4"
+        "default": "roboto_n4"
       }
     ]
   }
