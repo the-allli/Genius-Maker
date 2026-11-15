@@ -4,13 +4,13 @@
     "settings": [
       {
         "type": "range",
-        "id": "font_size",
-        "min": 12,
-        "max": 24,
-        "step": 1,
+        "id": "page_width",
+        "label": "Page Width",
+        "min": 1000,
+        "max": 2000,
+        "step": 40,
         "unit": "px",
-        "label": "Font size",
-        "default": 16
+        "default": 1000
       }
     ]
   }
