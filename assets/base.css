@@ -13,3 +13,8 @@ html {
   font-size: 100%;
   scroll-behavior: smooth;
 }
+
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+}
