@@ -11,6 +11,20 @@
         "step": 40,
         "unit": "px",
         "default": 1000
+      },
+      {
+        "type": "header",
+        "content": "Page Padding"
+      },
+      {
+        "type": "range",
+        "id": "page_padding",
+        "label": "Page Padding Mobile",
+        "min": 1000,
+        "max": 2000,
+        "step": 40,
+        "unit": "px",
+        "default": 1000
       }
     ]
   }
