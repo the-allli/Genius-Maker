@@ -47,6 +47,10 @@
     "name": "Font",
     "settings": [
       {
+        "type": "header",
+        "content": "Page Width"
+      },
+      {
         "type": "font_picker",
         "id": "heading_font",
         "label": "Heading font",
