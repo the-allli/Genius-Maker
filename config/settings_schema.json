@@ -3,6 +3,10 @@
     "name": "Layout",
     "settings": [
       {
+        "type": "header",
+        "content": "Page Width"
+      },
+      {
         "type": "range",
         "id": "page_width",
         "label": "Page Width",
@@ -18,13 +22,23 @@
       },
       {
         "type": "range",
-        "id": "page_padding",
+        "id": "page_padding_mobile",
         "label": "Page Padding Mobile",
         "min": 0,
         "max": 50,
         "step": 2,
         "unit": "px",
         "default": 16
+      },
+      {
+        "type": "range",
+        "id": "page_padding_desktop",
+        "label": "Page Padding Desktop",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "default": 80
       }
     ]
   }
