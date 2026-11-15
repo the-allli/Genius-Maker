@@ -73,6 +73,7 @@ textarea {
   padding-inline: var(--page-padding-mobile);
 }
 
+/* modifier class */
 .page-width--full {
   max-width: none;
 }
