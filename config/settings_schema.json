@@ -44,7 +44,7 @@
     ]
   },
   {
-    "name": "Font",
+    "name": "Typography",
     "settings": [
       {
         "type": "header",
@@ -53,7 +53,7 @@
       {
         "type": "font_picker",
         "id": "heading_font",
-        "label": "Heading font",
+        "label": "Heading Font",
         "default": "roboto_n4"
       }
     ]
