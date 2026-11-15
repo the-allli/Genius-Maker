@@ -17,4 +17,6 @@ html {
 body {
   background: #ffffff;
   color: #1a1a1a;
+  font-family: var(--body_font);
+  font-size: var(--base-font-size);
 }
