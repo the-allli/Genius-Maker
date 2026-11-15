@@ -17,7 +17,7 @@ html {
 body {
   background: #ffffff;
   color: #1a1a1a;
-  font-family: var(--body_font);
+  font-family: var(--body-font);
   font-size: var(--base-font-size);
   line-height: 1.5;
 }
