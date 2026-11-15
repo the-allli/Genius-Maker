@@ -1,5 +1,7 @@
 {% style %}
   :root {
-    --page-width: {{ settings.page_width | divided_by: 16.0 | append: 'rem'}}
+    --page-width: {{ settings.page_width | divided_by: 16.0 | append: 'rem'}};
+    --page-padding-modile: {{ settings.page_padding_mobile | append: 'px'}};
+    --page-padding-desktop: {{ settings.page_padding_desktop | append: 'px'}};
   }
 {% endstyle %}
