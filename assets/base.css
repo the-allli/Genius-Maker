@@ -77,3 +77,9 @@ textarea {
 .page-width--full {
   max-width: none;
 }
+
+@media (min-width: 46.875em) {
+  .page-width {
+    padding-inline: var(--page-padding-desktop);
+  }
+}
