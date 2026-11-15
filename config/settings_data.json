@@ -1,0 +1,18 @@
+{
+  "current": {
+    "page_width": 1000,
+    "page_padding_mobile": 16,
+    "page_padding_desktop": 80,
+    "heading_font": "roboto_n7",
+    "body_font": "roboto_n4"
+  },
+  "presets": {
+    "Default": {
+      "page_width": 1000,
+      "page_padding_mobile": 16,
+      "page_padding_desktop": 80,
+      "heading_font": "roboto_n7",
+      "body_font": "roboto_n4"
+    }
+  }
+}
