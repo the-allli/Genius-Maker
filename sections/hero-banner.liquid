@@ -6,11 +6,13 @@
 -%}
 
 <div class="hero-banner page-width{% if full_width_section %}page-width--full {% endif %}">
-  {% if banner != blank %}
-    {{ banner | image_url: width: 1000 | image_tag }}
-  {% else %}
-    {{ 'hero-apparel-1' | placeholder_svg_tag }}
-  {% endif %}
+  <div>
+    {% if banner != blank %}
+      {{ banner | image_url: width: 1000 | image_tag }}
+    {% else %}
+      {{ 'hero-apparel-1' | placeholder_svg_tag }}
+    {% endif %}
+  </div>
 </div>
 
 {% schema %}
