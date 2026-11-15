@@ -6,6 +6,10 @@
 -%}
 
 <div class="hero-banner page-width{% if full_width_section %}page-width--full {% endif %}">
+  {% if banner != blank %}
+  {% else %}
+
+  {% endif %}
   {{ 'hero-apparel-1' | placeholder_svg_tag }}
 </div>
 
