@@ -6,7 +6,7 @@
 -%}
 
 <div class="hero-banner page-width{% if full_width_section %}page-width--full {% endif %}">
-  <div>
+  <div class="image-wrapper">
     {% if banner != blank %}
       {{ banner | image_url: width: 1000 | image_tag }}
     {% else %}
