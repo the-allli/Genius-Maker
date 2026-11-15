@@ -69,4 +69,5 @@ textarea {
 .page-width {
   width: 100%;
   max-width: var(--page-width);
+  margin-inline: auto;
 }
