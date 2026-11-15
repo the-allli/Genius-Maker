@@ -12,12 +12,17 @@
     "page_width": 1000,
     "page_padding_mobile": 16,
     "page_padding_desktop": 80,
-    "heading_font": "roboto_n7",
-    "body_font": "roboto_n4"
+    "heading_font": "archivo_black_n4",
+    "body_font": "bodoni_moda_n4",
+    "content_for_index": []
   },
   "presets": {
     "Default": {
-      "page_width": 1000
+      "page_width": 1000,
+      "page_padding_mobile": 16,
+      "page_padding_desktop": 80,
+      "heading_font": "roboto_n7",
+      "body_font": "roboto_n4"
     }
   }
 }
