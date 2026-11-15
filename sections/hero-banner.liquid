@@ -1,5 +1,4 @@
 <div class="hero-banner">
-  <div class="hero-banner__inner"></div>
   {{ 'hero-apparel-1' | placeholder_svg_tag }}
 </div>
 
@@ -7,7 +6,19 @@
 {
   "name": "Hero Banner",
   "tag": "section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Default Text"
+    }
+  ],
   "presets": [{ "name": "Hero Banner" }]
 }
 {% endschema %}
