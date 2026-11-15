@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genius Maker</title>
     {% render 'theme-variables' %}
-    {{ base.css | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
   </head>
   <body>
