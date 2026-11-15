@@ -19,4 +19,5 @@ body {
   color: #1a1a1a;
   font-family: var(--body_font);
   font-size: var(--base-font-size);
+  line-height: 1.5;
 }
