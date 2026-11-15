@@ -9,10 +9,18 @@
  */
 {
   "sections": {
-    "hero-banner": {
+    "hero_banner_YN97mK": {
       "type": "hero-banner",
-      "settings": {}
+      "name": "Hero Banner",
+      "settings": {
+        "banner_img": "shopify://shop_images/theme_cover_image.jpg",
+        "heading_text": "Heading Text",
+        "desc_text": "Description Text",
+        "full_width_section": false
+      }
     }
   },
-  "order": ["hero-banner"]
+  "order": [
+    "hero_banner_YN97mK"
+  ]
 }
