@@ -3,3 +3,7 @@
 *::before {
   box-sizing: inherit;
 }
+
+*:not(dialog) {
+  margin: 0;
+}
