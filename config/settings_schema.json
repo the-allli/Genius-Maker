@@ -16,7 +16,6 @@
         "unit": "px",
         "default": 1000
       },
-
       {
         "type": "header",
         "content": "Page Padding"
