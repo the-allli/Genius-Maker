@@ -9,11 +9,13 @@
  */
 {
   "current": {
-    "page_width": 1000
+    "page_width": 1000,
+    "page_padding_mobile": 16,
+    "page_padding_desktop": 80
   },
   "presets": {
     "Default": {
-      "color_page_bg": "#000000"
+      "page_width": 1000
     }
   }
 }
